@@ -1,0 +1,8 @@
+version: "2.0"
+
+rules:
+- rule: Rule which will not wait for user message once it was applied
+  steps:
+  - intent: greetings_hello
+  - action: actions.greet.hello
+  wait_for_user_input: false

@@ -1,0 +1,541 @@
+version: "2.0"
+
+stories:
+- story: appraisal_bad
+  steps:
+  - intent: appraisal_bad
+  - action: utter_appraisal_bad
+
+- story: appraisal_good
+  steps:
+  - intent: appraisal_good
+  - action: utter_appraisal_good
+
+- story: appraisal_no_problem
+  steps:
+  - intent: appraisal_no_problem
+  - action: utter_appraisal_no_problem
+
+- story: appraisal_thank_you
+  steps:
+  - intent: appraisal_thank_you
+  - action: utter_appraisal_thank_you
+
+- story: appraisal_welcome
+  steps:
+  - intent: appraisal_welcome
+  - action: utter_appraisal_welcome
+
+- story: appraisal_well_done
+  steps:
+  - intent: appraisal_well_done
+  - action: utter_appraisal_well_done
+
+- story: agent_acquaintance
+  steps:
+  - intent: agent_acquaintance
+  - action: utter_agent_acquaintance
+
+- story: agent_age
+  steps:
+  - intent: agent_age
+  - action: utter_agent_age
+
+- story: agent_annoying
+  steps:
+  - intent: agent_annoying
+  - action: utter_agent_annoying
+
+- story: agent_answer_my_question
+  steps:
+  - intent: agent_answer_my_question
+  - action: utter_agent_answer_my_question
+
+- story: agent_bad
+  steps:
+  - intent: agent_bad
+  - action: utter_agent_bad
+
+- story: agent_be_clever
+  steps:
+  - intent: agent_be_clever
+  - action: utter_agent_be_clever
+
+- story: agent_beautiful
+  steps:
+  - intent: agent_beautiful
+  - action: utter_agent_beautiful
+
+- story: agent_birth_date
+  steps:
+  - intent: agent_birth_date
+  - action: utter_agent_birth_date
+
+- story: agent_boring
+  steps:
+  - intent: agent_boring
+  - action: utter_agent_boring
+
+- story: agent_boss
+  steps:
+  - intent: agent_boss
+  - action: utter_agent_boss
+
+- story: agent_busy
+  steps:
+  - intent: agent_busy
+  - action: utter_agent_busy
+
+- story: agent_can_you_help
+  steps:
+  - intent: agent_can_you_help
+  - action: utter_agent_can_you_help
+
+- story: agent_chatbot
+  steps:
+  - intent: agent_chatbot
+  - action: utter_agent_chatbot
+
+- story: agent_clever
+  steps:
+  - intent: agent_clever
+  - action: utter_agent_clever
+
+- story: agent_crazy
+  steps:
+  - intent: agent_crazy
+  - action: utter_agent_crazy
+
+- story: agent_fired
+  steps:
+  - intent: agent_fired
+  - action: utter_agent_fired
+
+- story: agent_funny
+  steps:
+  - intent: agent_funny
+  - action: utter_agent_funny
+
+- story: agent_hobby
+  steps:
+  - intent: agent_hobby
+  - action: utter_agent_hobby
+
+- story: agent_hungry
+  steps:
+  - intent: agent_hungry
+  - action: utter_agent_hungry
+
+- story: agent_marry_user
+  steps:
+  - intent: agent_marry_user
+  - action: utter_agent_marry_user
+
+- story: agent_my_friend
+  steps:
+  - intent: agent_my_friend
+  - action: utter_agent_my_friend
+
+- story: agent_occupation
+  steps:
+  - intent: agent_occupation
+  - action: utter_agent_occupation
+
+- story: agent_origin
+  steps:
+  - intent: agent_origin
+  - action: utter_agent_origin
+
+- story: agent_ready
+  steps:
+  - intent: agent_ready
+  - action: utter_agent_ready
+
+- story: agent_real
+  steps:
+  - intent: agent_real
+  - action: utter_agent_real
+
+- story: agent_residence
+  steps:
+  - intent: agent_residence
+  - action: utter_agent_residence
+
+- story: agent_right
+  steps:
+  - intent: agent_right
+  - action: utter_agent_right
+
+- story: agent_sure
+  steps:
+  - intent: agent_sure
+  - action: utter_agent_sure
+
+- story: agent_talk_to_me
+  steps:
+  - intent: agent_talk_to_me
+  - action: utter_agent_talk_to_me
+
+- story: agent_there
+  steps:
+  - intent: agent_there
+  - action: utter_agent_there
+
+- story: user_back
+  steps:
+  - intent: user_back
+  - action: utter_user_back
+
+- story: user_back
+  steps:
+  - intent: user_back
+  - action: utter_user_back
+
+- story: user_bored
+  steps:
+  - intent: user_bored
+  - action: utter_user_bored
+
+- story: user_busy
+  steps:
+  - intent: user_busy
+  - action: utter_user_busy
+
+- story: user_can_not_sleep
+  steps:
+  - intent: user_can_not_sleep
+  - action: utter_user_can_not_sleep
+
+- story: user_does_not_want_to_talk
+  steps:
+  - intent: user_does_not_want_to_talk
+  - action: utter_user_does_not_want_to_talk
+
+- story: user_going_to_bed
+  steps:
+  - intent: user_going_to_bed
+  - action: utter_user_going_to_bed
+
+- story: user_has_birthday
+  steps:
+  - intent: user_has_birthday
+  - action: utter_user_has_birthday
+
+- story: user_here
+  steps:
+  - intent: user_here
+  - action: utter_user_here
+
+- story: user_joking
+  steps:
+  - intent: user_joking
+  - action: utter_user_joking
+
+- story: user_likes_agent
+  steps:
+  - intent: user_likes_agent
+  - action: utter_user_likes_agent
+
+- story: user_lonely
+  steps:
+  - intent: user_lonely
+  - action: utter_user_lonely
+
+- story: user_looks_like
+  steps:
+  - intent: user_looks_like
+  - action: utter_user_looks_like
+
+- story: user_misses_agent
+  steps:
+  - intent: user_misses_agent
+  - action: utter_user_misses_agent
+
+- story: user_needs_advice
+  steps:
+  - intent: user_needs_advice
+  - action: utter_user_needs_advice
+
+- story: user_sleepy
+  steps:
+  - intent: user_sleepy
+  - action: utter_user_sleepy
+
+- story: user_testing_agent
+  steps:
+  - intent: user_testing_agent
+  - action: utter_user_testing_agent
+
+- story: user_tired
+  steps:
+  - intent: user_tired
+  - action: utter_user_tired
+
+- story: user_waits
+  steps:
+  - intent: user_waits
+  - action: utter_user_waits
+
+- story: user_wants_to_see_agent_again
+  steps:
+  - intent: user_wants_to_see_agent_again
+  - action: utter_user_wants_to_see_agent_again
+
+- story: user_wants_to_talk
+  steps:
+  - intent: user_wants_to_talk
+  - action: utter_user_wants_to_talk
+
+- story: user_will_be_back
+  steps:
+  - intent: user_will_be_back
+  - action: utter_user_will_be_back
+
+- story: confirmation_yes
+  steps:
+  - intent: confirmation_yes
+  - action: utter_confirmation_yes
+
+- story: confirmation_cancel
+  steps:
+  - intent: confirmation_cancel
+  - action: utter_confirmation_cancel
+
+- story: confirmation_no
+  steps:
+  - intent: confirmation_no
+  - action: utter_confirmation_no
+
+- story: dialog_hold_on
+  steps:
+  - intent: dialog_hold_on
+  - action: utter_dialog_hold_on
+
+- story: dialog_hug
+  steps:
+  - intent: dialog_hug
+  - action: utter_dialog_hug
+
+- story: dialog_i_do_not_care
+  steps:
+  - intent: dialog_i_do_not_care
+  - action: utter_dialog_i_do_not_care
+
+- story: dialog_sorry
+  steps:
+  - intent: dialog_sorry
+  - action: utter_dialog_sorry
+
+- story: dialog_what_do_you_mean
+  steps:
+  - intent: dialog_what_do_you_mean
+  - action: utter_dialog_what_do_you_mean
+
+- story: dialog_wrong
+  steps:
+  - intent: dialog_wrong
+  - action: utter_dialog_wrong
+
+- story: play game
+  steps:
+  - intent: play_game
+  - action: utter_play_game
+
+- story: game_scramble_start
+  steps:
+  - intent: game_scramble_start
+  - action: utter_game_scramble
+  - action: actions.game.scramble
+
+- story: game_scramble_start 2
+  steps:
+  - intent: greetings_hello
+  - action: actions.greet.hello
+  - intent: game_scramble_start
+  - action: utter_game_scramble
+  - action: actions.game.scramble
+
+- story: game_scramble_answer volkswagen
+  steps:
+  - intent: game_scramble_answer
+    entities:
+    - scramble: "volkswagen"
+  - action: actions.game.scramble.anwser
+  - action: actions.game.scramble
+
+- story: game_scramble_answer whittaker
+  steps:
+  - intent: game_scramble_answer
+    entities:
+    - scramble: "whittaker"
+  - action: actions.game.scramble.anwser
+  - action: actions.game.scramble
+
+- story: game_scramble_answer Captain Hook
+  steps:
+  - intent: game_scramble_answer
+    entities:
+    - scramble: "Captain_Hook"
+  - action: actions.game.scramble.anwser
+  - action: actions.game.scramble
+  - intent: confirmation_cancel
+  - action: utter_confirmation_cancel
+
+- story: game_quiz_start
+  steps:
+  - intent: game_quiz_start
+  - action: utter_game_quiz
+  - action: actions.game.quiz
+
+- story: game_quiz_start 2
+  steps:
+  - intent: greetings_hello
+  - action: actions.greet.hello
+  - intent: game_quiz_start
+  - action: utter_game_quiz
+  - action: actions.game.quiz
+
+- story: game_quiz_answer golden
+  steps:
+  - intent: game_quiz_answer
+    entities:
+    - quiz: "golden"
+  - action: actions.game.quiz.anwser
+  - action: actions.game.quiz
+
+- story: game_quiz_answer jewish
+  steps:
+  - intent: game_quiz_answer
+    entities:
+    - quiz: "jewish"
+  - action: actions.game.quiz.anwser
+  - action: actions.game.quiz
+
+- story: game_quiz_answer football
+  steps:
+  - intent: game_quiz_answer
+    entities:
+    - quiz: "football"
+  - action: actions.game.quiz.anwser
+  - action: actions.game.quiz
+  - intent: confirmation_cancel
+  - action: utter_confirmation_cancel
+
+- story: greetings_bye
+  steps:
+  - intent: greetings_bye
+  - action: actions.greet.bye
+
+- story: greetings_goodevening
+  steps:
+  - intent: greetings_goodevening
+  - action: utter_greetings_goodevening
+
+- story: greetings_goodmorning
+  steps:
+  - intent: greetings_goodmorning
+  - action: utter_greetings_goodmorning
+
+- story: greetings_goodnight
+  steps:
+  - intent: greetings_goodnight
+  - action: utter_greetings_goodnight
+
+- story: greetings_hello
+  steps:
+  - intent: greetings_hello
+  - action: actions.greet.hello
+
+- story: greetings_how_are_you
+  steps:
+  - intent: greetings_how_are_you
+  - action: utter_greetings_how_are_you
+
+- story: greetings_nice_to_meet_you
+  steps:
+  - intent: greetings_nice_to_meet_you
+  - action: utter_greetings_nice_to_meet_you
+
+- story: greetings_nice_to_see_you
+  steps:
+  - intent: greetings_nice_to_see_you
+  - action: utter_greetings_nice_to_see_you
+
+- story: greetings_nice_to_talk_to_you
+  steps:
+  - intent: greetings_nice_to_talk_to_you
+  - action: utter_greetings_nice_to_talk_to_you
+
+- story: greetings_whatsup
+  steps:
+  - intent: greetings_whatsup
+  - action: utter_greetings_whatsup
+- story: interactive_story_1
+  steps:
+  - intent: greetings_hello
+  - action: actions.greet.hello
+  - intent: game_quiz_start
+  - action: utter_game_quiz
+  - action: actions.game.quiz
+  - intent: game_quiz_answer
+    entities:
+    - quiz: golden
+  - action: actions.game.quiz.anwser
+  - action: actions.game.quiz
+  - intent: game_quiz_answer
+    entities:
+    - quiz: two in the bush
+  - action: actions.game.quiz.anwser
+  - slot_was_set:
+    - quiz_score: '1'
+  - action: actions.game.quiz
+
+- story: interactive_story_1
+  steps:
+  - intent: greetings_hello
+  - action: actions.greet.hello
+  - intent: greetings_how_are_you
+  - action: utter_greetings_how_are_you
+  - intent: game_quiz_start
+  - action: utter_game_quiz
+  - action: actions.game.quiz
+  - slot_was_set:
+    - quiz_answer: " geography\n"
+  - intent: game_quiz_answer
+    entities:
+    - quiz: geography
+  - action: actions.game.quiz.anwser
+  - slot_was_set:
+    - quiz_score: '1'
+  - action: actions.game.quiz
+  - slot_was_set:
+    - quiz_answer: " killer\n"
+  - intent: game_quiz_answer
+    entities:
+    - quiz: killer
+  - action: actions.game.quiz.anwser
+  - slot_was_set:
+    - quiz_score: '2'
+  - action: actions.game.quiz
+  - slot_was_set:
+    - quiz_answer: " charlie rich\n"
+  - intent: game_quiz_answer
+    entities:
+    - quiz: charlie rich
+  - action: actions.game.quiz.anwser
+  - slot_was_set:
+    - quiz_score: '3'
+  - action: actions.game.quiz
+  - slot_was_set:
+    - quiz_answer: " Abrus\n"
+  - intent: game_quiz_answer
+    entities:
+    - quiz: Abrus
+  - action: actions.game.quiz.anwser
+  - slot_was_set:
+    - quiz_score: '4'
+  - action: actions.game.quiz
+  - slot_was_set:
+    - quiz_answer: " maria callas\n"
+  - intent: confirmation_cancel
+  - action: utter_confirmation_cancel
